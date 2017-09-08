@@ -17,6 +17,6 @@ node list.js
 
 ### 截图
 ![截图](https://github.com/biyunbo/book/raw/master/show/tu1.png)
-![截图](https://github.com/biyunbo/book/raw/master/show/tu1.png)
+![截图](https://github.com/biyunbo/book/raw/master/show/tu2.png)
 
 
