@@ -1,16 +1,16 @@
 # react-cnode
-基于cheerio+superagent+async+mysql
+基于cheerio+superagent+async+mysql的小说爬虫。
 ------------------------------------------------------------------
 ### 下载
 ```
 git clone https://github.com/biyunbo/react-cnode.git
 cd book
 npm install
-yarn(安装依赖)
 ``` 
 
 ### 启动
 ```
+(要安装有mysql)
 node book.js
 node list.js
 ```
