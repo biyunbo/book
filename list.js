@@ -18,7 +18,7 @@ const pool = mysql.createPool({
 let urlId = 1;
 
 //创建表
-pool.query("CREATE TABLE IF NOT EXISTS bookList (id int(11) AUTO_INCREMENT PRIMARY KEY,bookId char(50),bookName char(255),author char(255),images char(255),ratings int(11),wordcount int(11),type char(255),intro text,serialize char(255),likes char(255))", function(err,result){
+pool.query("CREATE TABLE IF NOT EXISTS bookList (id int AUTO_INCREMENT PRIMARY KEY,bookId int,bookName char(255),author char(255),images char(255),ratings int(11),wordcount int(11),type char(255),intro text,serialize char(255),likes char(255))", function(err,result){
     if(err){throw err}else{
     	console.log("创建表成功")
     }

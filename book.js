@@ -25,7 +25,7 @@ let id = 0 //计数器
 let chapters = 10 //要爬取的章节数
 
 //创建表
-pool.query("CREATE TABLE IF NOT EXISTS books (id int(11) AUTO_INCREMENT PRIMARY KEY,bookId char(50),chapterId char(50),bookName char(50),title char(50),content text)", function(err,result){
+pool.query("CREATE TABLE IF NOT EXISTS books (id int AUTO_INCREMENT PRIMARY KEY,bookId int,chapterId int,bookName char(50),title char(50),content text)", function(err,result){
     if(err){throw err}else{
     	console.log("创建表成功")
     }
