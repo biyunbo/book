@@ -1,9 +1,9 @@
-# react-cnode
+# book-spider
 基于cheerio+superagent+async+mysql的小说爬虫。
 ------------------------------------------------------------------
 ### 下载
 ```
-git clone https://github.com/biyunbo/react-cnode.git
+git clone https://github.com/biyunbo/book.git
 cd book
 npm install
 ``` 
